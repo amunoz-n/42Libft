@@ -6,7 +6,7 @@
 /*   By: amunoz-n <amunoz-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 11:31:03 by amunoz-n          #+#    #+#             */
-/*   Updated: 2023/10/04 15:36:58 by amunoz-n         ###   ########.fr       */
+/*   Updated: 2023/10/20 19:21:43 by amunoz-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	size_t  i;
-	size_t  len;
+	size_t	i;
+	size_t	len;
 
 	i = 0;
 	len = ft_strlen(src);

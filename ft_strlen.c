@@ -6,7 +6,7 @@
 /*   By: amunoz-n <amunoz-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 20:06:48 by amunoz-n          #+#    #+#             */
-/*   Updated: 2023/10/04 15:37:36 by amunoz-n         ###   ########.fr       */
+/*   Updated: 2023/10/20 19:30:05 by amunoz-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,4 @@ size_t	ft_strlen(const char *s)
 	while (s[i] != '\0')
 		i++;
 	return (i);
-}
-
-int main(void)
-{
-	printf("%lu\n", ft_strlen(""));
-	printf("%lu\n", strlen(""));
 }
